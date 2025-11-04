@@ -5,12 +5,14 @@
   Just copy the directory into you /boot/grub/themes/
   if you dont have the /themes you can just copy to the /grub/
 
-  **sudo cp /home/yourName/Downloads/EPIC-OS /boot/grub/themes/**
+    sudo cp /home/yourName/Downloads/EPIC-OS /boot/grub/themes/
 
   # Third step
   Now you must edit the /etc/default/grub changing the GRUB_THEME path
   to where you put the EPIC-OS directory and specifiying the theme.txt file in the path
-  **sudo nano(or any text editor you use) /etc/default/grub**
+     
+     sudo nano(or any text editor you use) /etc/default/grub
+  
   ## EX:
     GRUB_THEME="/boot/grub/themes/EPIC-OS/theme.txt"
   ### OBS
