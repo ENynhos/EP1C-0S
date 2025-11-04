@@ -16,7 +16,7 @@
   ## EX:
     GRUB_THEME="/boot/grub/themes/EPIC-OS/theme.txt"
   ### OBS
-  as default the GRUB_THEME is marked as comment you neet to delete the # before the GRUB_THEME
+  as default the GRUB_THEME is marked as comment you need to delete the # before the GRUB_THEME
 
   # Now you just need to update you grub and reboot
   you can simply do this by using 
